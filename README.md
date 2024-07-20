@@ -1,30 +1,43 @@
-# React + TypeScript + Vite
+# 📰 News Website Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the frontend part of our News Website! This project is built using TypeScript and provides a user-friendly interface for browsing and searching news articles. The backend part has already been deployed, and this frontend connects to it to fetch news data from the API.
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔍 **Search News**: Easily search for news articles by keywords.
+- 📰 **News Pages**: Browse through the latest news articles fetched from the backend API.
+- 📱 **Responsive Design**: Optimized for both desktop and mobile devices.
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+To get a local copy of this project up and running, follow these steps.
 
-- Configure the top-level `parserOptions` property like this:
+### Prerequisites
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Make sure you have the following installed on your machine:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- [Node.js](https://nodejs.org/) (version 14 or higher)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/nasirovx/NeoNews-Fd.git
+   cd NeoNews-Fd
+2.Install dependencies:
+npm install
+ or
+yarn install
+Running the Project
+To start the development server, run:
+npm start
+ or
+yarn start
+The app will be available at http://localhost:3000.
+
+## 🛠️ Build
+To build the project for production, run:
+npm run build
+ or
+yarn build
