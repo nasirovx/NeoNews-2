@@ -41,3 +41,13 @@ To build the project for production, run:
 npm run build
  or
 yarn build
+The built files will be in the dist directory.
+
+## 📄 License
+This project is licensed under the MIT License. See the LICENSE file for more information.
+
+## 👥 Contributing
+Contributions are welcome! Please open an issue or submit a pull request.
+
+## 📧 Contact
+If you have any questions or suggestions, feel free to reach out.
