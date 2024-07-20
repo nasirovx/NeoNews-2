@@ -2,7 +2,7 @@
   "name": "news_app",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
+  "type": "module", 
   "scripts": {
     "dev": "vite",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
