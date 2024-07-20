@@ -1,30 +1,51 @@
-# React + TypeScript + Vite
+# 📰 News Website Frontend
+ 
+Welcome to the frontend part of our News Website! This project is built using TypeScript and provides a user-friendly interface for browsing and searching news articles. The backend part has already been deployed, and this frontend connects to it to fetch news data from the API. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🌟 Features 
+  
+- 🔍 **Search News**: Easily search for news articles by keywords.
+- 📰 **News Pages**: Browse through the latest news articles fetched from the backend API.
+- 📱 **Responsive Design**: Optimized for both desktop and mobile devices.
 
-Currently, two official plugins are available:
+## 🚀 Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To get a local copy of this project up and running, follow these steps.
 
-## Expanding the ESLint configuration
+### Prerequisites
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Make sure you have the following installed on your machine:
 
-- Configure the top-level `parserOptions` property like this:
+- [Node.js](https://nodejs.org/) (version 14 or higher)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### Installation
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/nasirovx/NeoNews-Fd.git
+   cd NeoNews-Fd
+2.Install dependencies:
+npm install
+ or
+yarn install
+Running the Project
+To start the development server, run:
+npm start
+ or
+yarn start
+The app will be available at http://localhost:3000.
+
+## 🛠️ Build
+To build the project for production, run:
+npm run build
+ or
+yarn build
+The built files will be in the dist directory.
+
+## 📄 License
+This project is licensed under the MIT License. See the LICENSE file for more information.
+
+## 👥 Contributing
+Contributions are welcome! Please open an issue or submit a pull request.
+
