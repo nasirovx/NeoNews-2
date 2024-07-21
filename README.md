@@ -1,7 +1,7 @@
 # 📰 News Website Frontend
  
 Welcome to the frontend part of our News Website! This project is built using TypeScript and provides a user-friendly interface for browsing and searching news articles. The backend part has already been deployed, and this frontend connects to it to fetch news data from the API. 
-
+ 
 ## 🌟 Features  
   
 - 🔍 **Search News**: Easily search for news articles by keywords. 
