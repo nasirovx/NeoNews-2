@@ -4,7 +4,7 @@ Welcome to the frontend part of our News Website! This project is built using Ty
 
 ## 🌟 Features 
   
-- 🔍 **Search News**: Easily search for news articles by keywords.
+- 🔍 **Search News**: Easily search for news articles by keywords. 
 - 📰 **News Pages**: Browse through the latest news articles fetched from the backend API.
 - 📱 **Responsive Design**: Optimized for both desktop and mobile devices.
 
