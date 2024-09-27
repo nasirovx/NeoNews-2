@@ -23,7 +23,7 @@ Make sure you have the following installed on your machine:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/nasirovx/NeoNews-Fd.git
+   git clone https://github.com/nasirovx/NeoNews-2.git
    cd NeoNews-Fd
 2.Install dependencies:
 npm install
